@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point of the program
  *
- * Description: This function prints "Programming is like building a multilingual puzzle"
- *              and returns 0 to indicate success.
+ * Description: This function prints the string
+ * "Programming is like building a multilingual puzzle" and returns 0 to
+ * indicate successful execution.
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
