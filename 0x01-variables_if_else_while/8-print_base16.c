@@ -12,15 +12,17 @@ int main(void)
 	int number;
 	char letter;
 
-	for (number = 0; number < 11; number++)
+	for (number = 0; number <= 10; number++)
 	{
 		if (number > 9)
 		{
 			for (letter = 'a'; letter <= 'f'; letter++)
 				putchar(letter);
 		}
-		
-		putchar('0' + number);
+		else
+		{
+			putchar('0' + number);
+		}
 	}
 
 	putchar('\n');
