@@ -13,11 +13,9 @@ int main(void)
 	char lowercase;
 	char uppercase;
 
-	/* Print lowercase alphabet */
 	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 		putchar(lowercase);
 
-	/* Print uppercase alphabet */
 	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 		putchar(uppercase);
 
@@ -25,3 +23,4 @@ int main(void)
 
 	return (0);
 }
+
