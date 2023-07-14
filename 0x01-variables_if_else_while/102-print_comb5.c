@@ -5,9 +5,9 @@
  *
  * Description: Prints all possible combinations of two two-digit numbers.
  *              Numbers range from 0 to 99 and are printed with two digits.
- *              Numbers are separated by a space and combinations by comma and space.
+ *              Numbers are separated by a space and comma.
  *              Combinations are printed in ascending order.
- *              00 01 and 01 00 are considered the same combination of numbers 0 and 1.
+ *              00 01 and 01 00 are considered the same combination.
  *
  * Return: Always 0 (Success)
  */
