@@ -1,7 +1,7 @@
 /**
  * add - Adds two integers
- * @a: The first integer
- * @b: The second integer
+ * @x: The first integer
+ * @y: The second integer
  *
  * Description: This function takes two integers, `a` and `b`, as input
  *              and returns their sum.
