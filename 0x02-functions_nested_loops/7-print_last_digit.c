@@ -3,7 +3,8 @@
 /**
  * print_last_digit - Prints the last digit of a number
  * @n: The number to extract the last digit from
- *
+ * Description - a function that prints the 
+ * 		last digit of a number.
  * Return: The value of the last digit
  */
 

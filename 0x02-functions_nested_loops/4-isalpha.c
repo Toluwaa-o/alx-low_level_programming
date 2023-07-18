@@ -1,6 +1,7 @@
 /*
  * _isalpha - checks if c is a letter, lowercase or uppercase.
  * @c - is the character to be checked.
+ * Description - a function that checks for alphabetic character.
  */
 
 int _isalpha(int c)
