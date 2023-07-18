@@ -1,7 +1,7 @@
 /**
  * _abs - Computes the absolute value of an integer
  * @n: The integer to compute the absolute value of
- * Description - a function that computes the absolute 
+ * Description - a function that computes the absolute
  * value of an integer.
  * Return: The absolute value of n
  */
