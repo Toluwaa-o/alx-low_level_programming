@@ -19,5 +19,4 @@ void print_alphabet_x10(void)
 			letters++;
 		}
 	}
-	return (void);
 }
