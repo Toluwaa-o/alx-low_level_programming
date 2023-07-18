@@ -9,20 +9,19 @@
 
 int main(void)
 {
-	int i;
-	unsigned long int fib1 = 1, fib2 = 2, fib_next;
+	int a = 1;
+	int b = 2;
 
-	printf("%llu, %llu", fib1, fib2);
-	
-	for (i = 3; i <= 50; i++)
+	printf("%d, %d", a, b);
+
+	for (int i = 3; i <= 50; i++)
 	{
-		fib_next = fib1 + fib2;
-		printf(", %llu", fib_next);
-
-		fib1 = fib2;
-		fib2 = fib_next;
+		int c = a + b;
+		printf(", %d", c);
+		a = b;
+		b = c;
 	}
-
+	
 	printf("\n");
 
 	return (0);
