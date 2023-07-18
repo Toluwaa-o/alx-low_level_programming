@@ -29,7 +29,7 @@ void print_times_table(int n)
 			if (product < 10 && column != 0)
 				_putchar(' ');
 
-			if (product < 100)
+			else if (product < 100)
 				_putchar(' ');
 
 			if (product >= 100)
