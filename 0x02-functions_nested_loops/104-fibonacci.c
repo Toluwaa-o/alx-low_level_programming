@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	unsigned long int fib1 = 1, fib2 = 2, fib_next;
+	unsigned long long int fib1 = 1, fib2 = 2, fib_next;
 	int count;
 
 	printf("%lu, %lu", fib1, fib2);
