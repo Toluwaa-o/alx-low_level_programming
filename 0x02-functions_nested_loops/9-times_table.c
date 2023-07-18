@@ -2,33 +2,40 @@
 
 /**
  * times_table - Prints the 9 times table.
- * Description - a function that prints the 9 
- * 		times table, starting with 0.
+ * Description - a function that prints the 9
+ * times table, starting with 0.
  */
 
 void times_table(void)
 {
-	int i, j, result;
+	int row, column, product;
 
-	for (i = 0; i <= 9; i++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (column = 0; column <= 9; column++)
 		{
-			result = i * j;
+			product = row * column;
 
-			if (j != 0)
-				printf(",  ");
-
-			printf("%d", result);
-
-			if (j != 9)
+			if (column > 0)
 			{
-				if (result < 10)
-					printf(", ");
-				else
-					printf(",");
+				_putchar(',');
+				_putchar(' ');
+			}
+
+			if (product < 10 && column > 0)
+				_putchar(' ');
+
+			if (product >= 10)
+			{
+				_putchar(product / 10 + '0');
+				_putchar(product % 10 + '0');
+			}
+			else
+			{
+				_putchar(product + '0');
 			}
 		}
-		printf("\n");
+
+		_putchar('\n');
 	}
 }
